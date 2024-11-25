@@ -33,7 +33,7 @@ Faça um fork deste repositório para executar o trabalho.
    - Necessário separar a listagem e visualização.
 
 ## Requisitos Técnicos
-- **.NET**: Versão 6, 7 ou 9.
+- **.NET**: Versão 7, 8 ou 9.
 - **Autenticação**: Realize autenticação na API, criando um controller de Auth para gerar um JWT.
 - **Banco de Dados**: SQL Server ou MongoDB.
 - **Validações**:
