@@ -1,0 +1,7 @@
+CREATE TABLE TBL_USuario (
+    id_usuario INT IDENTITY(1,1) PRIMARY KEY,
+    nome VARCHAR(50) NOT NULL,
+    email VARCHAR(50) NOT NULL UNIQUE,
+    login VARCHAR(30) NOT NULL UNIQUE,
+    senha VARCHAR(100) NOT NULL
+);

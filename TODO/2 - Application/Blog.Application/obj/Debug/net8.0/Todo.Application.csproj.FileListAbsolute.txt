@@ -1,0 +1,16 @@
+C:\repositorios\coding-test-todolist\TODO\2 - Application\Blog.Application\bin\Debug\net8.0\Todo.Application.deps.json
+C:\repositorios\coding-test-todolist\TODO\2 - Application\Blog.Application\bin\Debug\net8.0\Todo.Application.dll
+C:\repositorios\coding-test-todolist\TODO\2 - Application\Blog.Application\bin\Debug\net8.0\Todo.Application.pdb
+C:\repositorios\coding-test-todolist\TODO\2 - Application\Blog.Application\bin\Debug\net8.0\Todo.Domain.dll
+C:\repositorios\coding-test-todolist\TODO\2 - Application\Blog.Application\bin\Debug\net8.0\Todo.Domain.pdb
+C:\repositorios\coding-test-todolist\TODO\2 - Application\Blog.Application\obj\Debug\net8.0\Todo.Application.csproj.AssemblyReference.cache
+C:\repositorios\coding-test-todolist\TODO\2 - Application\Blog.Application\obj\Debug\net8.0\Todo.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\repositorios\coding-test-todolist\TODO\2 - Application\Blog.Application\obj\Debug\net8.0\Todo.Application.AssemblyInfoInputs.cache
+C:\repositorios\coding-test-todolist\TODO\2 - Application\Blog.Application\obj\Debug\net8.0\Todo.Application.AssemblyInfo.cs
+C:\repositorios\coding-test-todolist\TODO\2 - Application\Blog.Application\obj\Debug\net8.0\Todo.Application.csproj.CoreCompileInputs.cache
+C:\repositorios\coding-test-todolist\TODO\2 - Application\Blog.Application\obj\Debug\net8.0\Todo.Application.sourcelink.json
+C:\repositorios\coding-test-todolist\TODO\2 - Application\Blog.Application\obj\Debug\net8.0\Todo.App.468A55F7.Up2Date
+C:\repositorios\coding-test-todolist\TODO\2 - Application\Blog.Application\obj\Debug\net8.0\Todo.Application.dll
+C:\repositorios\coding-test-todolist\TODO\2 - Application\Blog.Application\obj\Debug\net8.0\refint\Todo.Application.dll
+C:\repositorios\coding-test-todolist\TODO\2 - Application\Blog.Application\obj\Debug\net8.0\Todo.Application.pdb
+C:\repositorios\coding-test-todolist\TODO\2 - Application\Blog.Application\obj\Debug\net8.0\ref\Todo.Application.dll

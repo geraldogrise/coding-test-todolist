@@ -1,0 +1,15 @@
+C:\repositorios\coding-test-todolist\TODO\3 - Domain\Blog.Domain\bin\Debug\net8.0\Todo.Domain.deps.json
+C:\repositorios\coding-test-todolist\TODO\3 - Domain\Blog.Domain\bin\Debug\net8.0\Todo.Domain.dll
+C:\repositorios\coding-test-todolist\TODO\3 - Domain\Blog.Domain\bin\Debug\net8.0\Todo.Domain.pdb
+C:\repositorios\coding-test-todolist\TODO\3 - Domain\Blog.Domain\obj\Debug\net8.0\Todo.Domain.csproj.AssemblyReference.cache
+C:\repositorios\coding-test-todolist\TODO\3 - Domain\Blog.Domain\obj\Debug\net8.0\Todo.Domain.Messages.Mensagens.resources
+C:\repositorios\coding-test-todolist\TODO\3 - Domain\Blog.Domain\obj\Debug\net8.0\Todo.Domain.csproj.GenerateResource.cache
+C:\repositorios\coding-test-todolist\TODO\3 - Domain\Blog.Domain\obj\Debug\net8.0\Todo.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\repositorios\coding-test-todolist\TODO\3 - Domain\Blog.Domain\obj\Debug\net8.0\Todo.Domain.AssemblyInfoInputs.cache
+C:\repositorios\coding-test-todolist\TODO\3 - Domain\Blog.Domain\obj\Debug\net8.0\Todo.Domain.AssemblyInfo.cs
+C:\repositorios\coding-test-todolist\TODO\3 - Domain\Blog.Domain\obj\Debug\net8.0\Todo.Domain.csproj.CoreCompileInputs.cache
+C:\repositorios\coding-test-todolist\TODO\3 - Domain\Blog.Domain\obj\Debug\net8.0\Todo.Domain.sourcelink.json
+C:\repositorios\coding-test-todolist\TODO\3 - Domain\Blog.Domain\obj\Debug\net8.0\Todo.Domain.dll
+C:\repositorios\coding-test-todolist\TODO\3 - Domain\Blog.Domain\obj\Debug\net8.0\refint\Todo.Domain.dll
+C:\repositorios\coding-test-todolist\TODO\3 - Domain\Blog.Domain\obj\Debug\net8.0\Todo.Domain.pdb
+C:\repositorios\coding-test-todolist\TODO\3 - Domain\Blog.Domain\obj\Debug\net8.0\ref\Todo.Domain.dll

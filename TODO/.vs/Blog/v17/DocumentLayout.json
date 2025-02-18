@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\repositorios\\coding-test-blog\\Blog\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{694F0C91-ACBF-4C40-B914-CFD521604083}|3 - Domain\\Blog.Domain\\Blog.Domain.csproj|c:\\repositorios\\coding-test-blog\\blog\\3 - domain\\blog.domain\\aggreagates\\users\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{694F0C91-ACBF-4C40-B914-CFD521604083}|3 - Domain\\Blog.Domain\\Blog.Domain.csproj|solutionrelative:3 - domain\\blog.domain\\aggreagates\\users\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{694F0C91-ACBF-4C40-B914-CFD521604083}|3 - Domain\\Blog.Domain\\Blog.Domain.csproj|c:\\repositorios\\coding-test-blog\\blog\\3 - domain\\blog.domain\\aggreagates\\auth\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{694F0C91-ACBF-4C40-B914-CFD521604083}|3 - Domain\\Blog.Domain\\Blog.Domain.csproj|solutionrelative:3 - domain\\blog.domain\\aggreagates\\auth\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{694F0C91-ACBF-4C40-B914-CFD521604083}|3 - Domain\\Blog.Domain\\Blog.Domain.csproj|c:\\repositorios\\coding-test-blog\\blog\\3 - domain\\blog.domain\\aggreagates\\auth\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{694F0C91-ACBF-4C40-B914-CFD521604083}|3 - Domain\\Blog.Domain\\Blog.Domain.csproj|solutionrelative:3 - domain\\blog.domain\\aggreagates\\auth\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{694F0C91-ACBF-4C40-B914-CFD521604083}|3 - Domain\\Blog.Domain\\Blog.Domain.csproj|c:\\repositorios\\coding-test-blog\\blog\\3 - domain\\blog.domain\\util\\hashutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{694F0C91-ACBF-4C40-B914-CFD521604083}|3 - Domain\\Blog.Domain\\Blog.Domain.csproj|solutionrelative:3 - domain\\blog.domain\\util\\hashutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\repositorios\\coding-test-blog\\Blog\\3 - Domain\\Blog.Domain\\Aggreagates\\Auth\\AuthService.cs",
+              "RelativeDocumentMoniker": "3 - Domain\\Blog.Domain\\Aggreagates\\Auth\\AuthService.cs",
+              "ToolTip": "C:\\repositorios\\coding-test-blog\\Blog\\3 - Domain\\Blog.Domain\\Aggreagates\\Auth\\AuthService.cs",
+              "RelativeToolTip": "3 - Domain\\Blog.Domain\\Aggreagates\\Auth\\AuthService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAYAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T18:42:03.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\repositorios\\coding-test-blog\\Blog\\3 - Domain\\Blog.Domain\\Aggreagates\\Auth\\IAuthService.cs",
+              "RelativeDocumentMoniker": "3 - Domain\\Blog.Domain\\Aggreagates\\Auth\\IAuthService.cs",
+              "ToolTip": "C:\\repositorios\\coding-test-blog\\Blog\\3 - Domain\\Blog.Domain\\Aggreagates\\Auth\\IAuthService.cs",
+              "RelativeToolTip": "3 - Domain\\Blog.Domain\\Aggreagates\\Auth\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T18:42:00.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HashUtil.cs",
+              "DocumentMoniker": "C:\\repositorios\\coding-test-blog\\Blog\\3 - Domain\\Blog.Domain\\Util\\HashUtil.cs",
+              "RelativeDocumentMoniker": "3 - Domain\\Blog.Domain\\Util\\HashUtil.cs",
+              "ToolTip": "C:\\repositorios\\coding-test-blog\\Blog\\3 - Domain\\Blog.Domain\\Util\\HashUtil.cs",
+              "RelativeToolTip": "3 - Domain\\Blog.Domain\\Util\\HashUtil.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAkAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T18:40:50.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\repositorios\\coding-test-blog\\Blog\\3 - Domain\\Blog.Domain\\Aggreagates\\Users\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "3 - Domain\\Blog.Domain\\Aggreagates\\Users\\Services\\UserService.cs",
+              "ToolTip": "C:\\repositorios\\coding-test-blog\\Blog\\3 - Domain\\Blog.Domain\\Aggreagates\\Users\\Services\\UserService.cs",
+              "RelativeToolTip": "3 - Domain\\Blog.Domain\\Aggreagates\\Users\\Services\\UserService.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAABsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T18:38:48.127Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

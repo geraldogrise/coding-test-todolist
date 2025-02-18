@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\repositorios\\coding-test-todolist\\TODO\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5A9D4AD8-CF3F-4CD7-8230-2F1EED1A4007}|1 - Services\\WebApplication1\\Blog.Endpoints\\Todo.Endpoints.csproj|c:\\repositorios\\coding-test-todolist\\todo\\1 - services\\webapplication1\\blog.endpoints\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A9D4AD8-CF3F-4CD7-8230-2F1EED1A4007}|1 - Services\\WebApplication1\\Blog.Endpoints\\Todo.Endpoints.csproj|solutionrelative:1 - services\\webapplication1\\blog.endpoints\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C7EC8EF-4455-40DC-95B6-474D87B32C06}|2 - Application\\Blog.Application\\Todo.Application.csproj|c:\\repositorios\\coding-test-todolist\\todo\\2 - application\\blog.application\\app\\userappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C7EC8EF-4455-40DC-95B6-474D87B32C06}|2 - Application\\Blog.Application\\Todo.Application.csproj|solutionrelative:2 - application\\blog.application\\app\\userappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C7EC8EF-4455-40DC-95B6-474D87B32C06}|2 - Application\\Blog.Application\\Todo.Application.csproj|c:\\repositorios\\coding-test-todolist\\todo\\2 - application\\blog.application\\app\\taskappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C7EC8EF-4455-40DC-95B6-474D87B32C06}|2 - Application\\Blog.Application\\Todo.Application.csproj|solutionrelative:2 - application\\blog.application\\app\\taskappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserAppService.cs",
+              "DocumentMoniker": "C:\\repositorios\\coding-test-todolist\\TODO\\2 - Application\\Blog.Application\\App\\UserAppService.cs",
+              "RelativeDocumentMoniker": "2 - Application\\Blog.Application\\App\\UserAppService.cs",
+              "ToolTip": "C:\\repositorios\\coding-test-todolist\\TODO\\2 - Application\\Blog.Application\\App\\UserAppService.cs",
+              "RelativeToolTip": "2 - Application\\Blog.Application\\App\\UserAppService.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAtwCsAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T14:14:05.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TaskAppService.cs",
+              "DocumentMoniker": "C:\\repositorios\\coding-test-todolist\\TODO\\2 - Application\\Blog.Application\\App\\TaskAppService.cs",
+              "RelativeDocumentMoniker": "2 - Application\\Blog.Application\\App\\TaskAppService.cs",
+              "ToolTip": "C:\\repositorios\\coding-test-todolist\\TODO\\2 - Application\\Blog.Application\\App\\TaskAppService.cs",
+              "RelativeToolTip": "2 - Application\\Blog.Application\\App\\TaskAppService.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAtwCQAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T14:13:58.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\repositorios\\coding-test-todolist\\TODO\\1 - Services\\WebApplication1\\Blog.Endpoints\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "1 - Services\\WebApplication1\\Blog.Endpoints\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\repositorios\\coding-test-todolist\\TODO\\1 - Services\\WebApplication1\\Blog.Endpoints\\Controllers\\UserController.cs",
+              "RelativeToolTip": "1 - Services\\WebApplication1\\Blog.Endpoints\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAIwH8AAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T14:13:46.538Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
