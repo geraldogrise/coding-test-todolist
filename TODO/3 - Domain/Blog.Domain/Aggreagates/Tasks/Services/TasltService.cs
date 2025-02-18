@@ -1,9 +1,7 @@
 ﻿using Todo.Domain.Aggreagates.Tasks.Repository;
-using Todo.Domain.Aggreagates.Tasks;
-using Todo.Domain.Aggreagates.Tasks.Services;
 using Todo.Domain.Services;
 using MediatR;
-using Todo.Domain.Aggreagates.Users;
+
 
 
 namespace Todo.Domain.Aggreagates.Tasks.Services
@@ -56,7 +54,7 @@ namespace Todo.Domain.Aggreagates.Tasks.Services
         {
             return _taskRepository.GetTasks();
         }
-
+        
         public List<Task> GetAll()
         {
             return _taskRepository.GetAll().ToList();
