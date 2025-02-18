@@ -12,5 +12,6 @@ namespace Todo.Domain.Aggreagates.Tasks.Repository
     public interface ITaskRepository : IRepository<Task>
     {
         List<Task> GetByUser(int id_user);
+        List<TaskUser> GetTasks();
     }
 }

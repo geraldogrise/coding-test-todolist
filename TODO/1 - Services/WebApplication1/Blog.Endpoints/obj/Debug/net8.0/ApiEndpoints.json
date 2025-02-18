@@ -79,6 +79,16 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Todo.Endpoints.Controllers.TaskController",
+    "Method": "GetTasks",
+    "RelativePath": "api/tasks/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Todo.Endpoints.Controllers.UserController",
     "Method": "GetAll",
     "RelativePath": "api/users",
@@ -176,7 +186,7 @@
   {
     "ContainingType": "Todo.Endpoints.Controllers.AuthController",
     "Method": "Signin",
-    "RelativePath": "auth/Signin",
+    "RelativePath": "auth/signin",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,

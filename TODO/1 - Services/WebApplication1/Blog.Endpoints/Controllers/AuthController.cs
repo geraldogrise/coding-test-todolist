@@ -22,7 +22,7 @@ namespace Todo.Endpoints.Controllers
             _userAppService = userAppService;
         }
 
-        [HttpPost("Signin")]
+        [HttpPost("signin")]
         public IActionResult Signin([FromBody] LoginModel loginModel)
         {
             try

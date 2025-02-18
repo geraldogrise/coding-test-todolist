@@ -2,7 +2,7 @@ import { UsuarioModel } from "../models/UsuarioModel";
 import BaseService from "./core/BaseService";
 
 class UsuarioService extends BaseService {
-    listarUsuarios = async (page: number, size: number) => {
+    listarUsuarios = async () => {
        return await this.Get("api/users");
     };
 
@@ -17,6 +17,7 @@ class UsuarioService extends BaseService {
     editarUsuario = async (id:number, usuario: UsuarioModel) => {
         return await this.Put(id, usuario,"api/users");
     };
+
 }
 
 export default UsuarioService;

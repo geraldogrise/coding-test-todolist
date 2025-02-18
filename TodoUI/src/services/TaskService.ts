@@ -27,6 +27,10 @@ class  TaskService extends BaseService {
     DeletarAtividade = async (id:number) => {
         return await this.Delete(id,"api/tasks");
     };
+
+    listarTarefas = async () => {
+        return await this.Get("api/tasks/all");
+    };
 }
 
 export default TaskService;

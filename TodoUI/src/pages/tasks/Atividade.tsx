@@ -11,12 +11,17 @@ import { useGlobalContext } from "../../providers/GlobalProvider";
 import { MessageType } from "../../components/core/message/MessageType";
 import LocalStorageService from "../../services/LocalStorageService";
 import { jwtDecode } from "jwt-decode";
+import UsuarioService from "../../services/UsuarioService";
+import { Combo } from "../../components/models/Combo";
+import { UsuarioModel } from "../../models/UsuarioModel";
+import Select from "../../components/core/select/Select";
 
 const Atividade: React.FC<any> = () => {
     const [task, setTask] = useState<TaskModel>(new TaskModel());
     const { id } = useParams<{ id?: string }>();
     const { OpenMessage } = useGlobalContext();
     const navigate = useNavigate();
+    const [options, setOptions] = useState<Combo[]>(new Array<Combo>());
 
     useEffect(() => {
         if (!LocalStorageService.getToken()) {
@@ -56,12 +61,28 @@ const Atividade: React.FC<any> = () => {
         }
     }, []);
 
+    const carregarComboUsuarios = useCallback(async () => {
+        try {
+            const usuarioService = new UsuarioService();
+            const response = await usuarioService.listarUsuarios();
+            const users = (response as any).data.data as UsuarioModel[];
+            const options: Combo[] = users.map(item => new Combo(item.id? item.id : 0, item.name));
+            setOptions(options);
+        } catch (error) {
+            OpenMessage(MessageType.Error, "Erro ao carregar a usuários");
+        }
+    }, [OpenMessage]);
+
+
     useEffect(() => {
         if (id) {
             carregarTask(Number(id));
         }
         carregarUsuario();
-    }, [id, carregarTask, carregarUsuario]);
+        carregarComboUsuarios();
+    }, [id, carregarTask, carregarUsuario, carregarComboUsuarios]);
+
+
 
     const handleNome = (event: React.ChangeEvent<HTMLInputElement>) => {
         setTask(prevTask => ({
@@ -91,12 +112,21 @@ const Atividade: React.FC<any> = () => {
         }));
     };
 
+    
+    const handleUsuario = (value: string | number) => {
+        setTask({
+            ...task,
+            id_user: Number(value)
+        });
+    };
+
     const cancelar = () => {
         navigate("/tasks");
     };
 
     const salvar = async () => {
         const taskService = new TaskService();
+      
         try {
             if (id !== undefined) {
                 await taskService.editarAtividade(Number(id), task);
@@ -130,7 +160,15 @@ const Atividade: React.FC<any> = () => {
                             />
                         </div>
 
-                       
+                        <div className="col-md-12">
+                                <Select
+                                    options={options}
+                                    value={task.id_user}
+                                    onChange={handleUsuario}
+                                    required={true}
+                                    label="Usuários"
+                                />
+                            </div>
 
                         <div className="col-md-6">
                             <Input

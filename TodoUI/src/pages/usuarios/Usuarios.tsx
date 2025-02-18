@@ -21,7 +21,6 @@ import { FuncionalidadeEnum } from "../../models/enums/FuncionalidadeEnum";
 
 const Usuarios: React.FC<any> = () => {
   const navigate = useNavigate();
-  const size = 10;
   const { OpenMessage } = useGlobalContext();
   const [page, setPage] = useState<number>(0);
   const [totalPages, setTotalPages] = useState<number>(0);
@@ -62,9 +61,9 @@ const Usuarios: React.FC<any> = () => {
 
   const carregarUsuarios = async () => {
     try {
-         let response: any = [];
-         const usuarioService = new UsuarioService();
-          response = await usuarioService.listarUsuarios(page, size);
+          let response: any = [];
+          const usuarioService = new UsuarioService();
+          response = await usuarioService.listarUsuarios();
           const users = (response as any).data.data as UsuarioModel[];
           let pages = Math.round(users.length/10);
           let totalPages = pages === 0 ? 1 : page;

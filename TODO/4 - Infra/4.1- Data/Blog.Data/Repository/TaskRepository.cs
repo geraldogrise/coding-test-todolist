@@ -1,4 +1,5 @@
 ﻿using Azure;
+using Microsoft.EntityFrameworkCore;
 using Todo.Data.Context;
 using Todo.Data.Core.Repository;
 using Todo.Domain.Aggreagates.Tasks;
@@ -15,7 +16,25 @@ namespace Todo.Data.Repository
 
         public List<Domain.Aggreagates.Tasks.Task> GetByUser(int id_user)
         {
-           return _context.Posts.Where(x => x.Id_user == id_user).ToList();
+           return _context.Tasks.Where(x => x.Id_user == id_user).ToList();
+        }
+
+        public List<TaskUser> GetTasks()
+        {
+            return _context.Tasks
+            .Include(t => t.User)
+            .Select(t => new TaskUser
+            {
+                Id = t.Id,
+                Name = t.Name,
+                Description = t.Description,
+                RegistrationDate = t.RegistrationDate,
+                EndDate = t.EndDate,
+                Login = t.User.Login,
+                User = t.User.Name,
+                Email = t.User.Email
+            })
+            .ToList();
         }
     }
 }

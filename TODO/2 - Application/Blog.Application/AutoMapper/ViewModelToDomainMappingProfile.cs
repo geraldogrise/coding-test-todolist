@@ -11,6 +11,8 @@ namespace Todo.Application.AutoMapper
         {
             CreateMap<UserModel, User>();
             CreateMap<TaskModel, Domain.Aggreagates.Tasks.Task>();
+            CreateMap<TaskUserModel, TaskUser>();
+
             CreateMap<LoginModel, Login>();
         }
     }

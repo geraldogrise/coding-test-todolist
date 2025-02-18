@@ -110,5 +110,22 @@ namespace Todo.Endpoints.Controllers
                 return BadRequest(new { success = false, message = ex.Message });
             }
         }
+
+        [HttpGet("all")]
+        public IActionResult GetTasks()
+        {
+            try
+            {
+                var tasks = _taskAppService.GetTasks();
+                if (tasks.Count == 0)
+                    return NotFound(new { success = false, message = "Tasks not found" });
+                return Response(tasks);
+
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new { success = false, message = ex.Message });
+            }
+        }
     }
 }

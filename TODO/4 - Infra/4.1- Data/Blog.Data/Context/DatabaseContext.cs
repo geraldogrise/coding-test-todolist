@@ -10,7 +10,7 @@ namespace Todo.Data.Context
     public class DatabaseContext : DbContext
     {
         public DbSet<User> Users { get; set; }
-        public DbSet<Domain.Aggreagates.Tasks.Task> Posts { get; set; }
+        public DbSet<Domain.Aggreagates.Tasks.Task> Tasks { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

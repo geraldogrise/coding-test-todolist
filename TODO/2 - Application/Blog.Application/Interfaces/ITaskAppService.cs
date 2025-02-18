@@ -11,6 +11,7 @@ namespace Todo.Application.Interfaces
         public bool Delete(int id);
         public TaskModel GetById(int id);
         public List<TaskModel> GetByUser(int id_user);
+        public List<TaskUserModel> GetTasks();
         public List<TaskModel> GetAll();
     }
 }

@@ -52,6 +52,11 @@ namespace Todo.Domain.Aggreagates.Tasks.Services
             return _taskRepository.GetByUser(id_user).ToList();
         }
 
+        public List<TaskUser> GetTasks()
+        {
+            return _taskRepository.GetTasks();
+        }
+
         public List<Task> GetAll()
         {
             return _taskRepository.GetAll().ToList();

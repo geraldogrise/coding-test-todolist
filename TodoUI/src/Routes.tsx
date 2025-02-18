@@ -12,6 +12,7 @@ import Usuarios from './pages/usuarios/Usuarios';
 import Register from "./pages/register/Register";
 import Atividade from "./pages/tasks/Atividade";
 import Atividades from "./pages/tasks/Atividades";
+import  Views  from "./pages/view/Views";
 
 
 const renderLoader = () => {
@@ -22,7 +23,7 @@ const Main = () => (
   <React.Suspense fallback={renderLoader()}>
     <Router>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Views />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
         <Route path="/home" element={<Home />} />

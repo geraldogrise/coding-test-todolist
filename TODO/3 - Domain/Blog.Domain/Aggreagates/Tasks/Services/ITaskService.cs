@@ -14,5 +14,7 @@ namespace Todo.Domain.Aggreagates.Tasks.Services
         public List<Task> GetAll();
 
         public List<Task> GetByUser(int id_user);
+
+        public List<TaskUser> GetTasks();
     }
 }

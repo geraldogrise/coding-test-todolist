@@ -53,6 +53,11 @@ namespace Todo.Application.App
             return _mapper.Map<List<TaskModel>>(_postService.GetByUser(id_user));
         }
 
+        public List<TaskUserModel> GetTasks()
+        {
+            return _mapper.Map<List<TaskUserModel>>(_postService.GetTasks());
+        }
+
         public List<TaskModel> GetAll()
         {
             return _mapper.Map<List<TaskModel>>(_postService.GetAll());

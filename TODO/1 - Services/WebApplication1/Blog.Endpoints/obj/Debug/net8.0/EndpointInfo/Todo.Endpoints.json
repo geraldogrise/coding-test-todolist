@@ -10,7 +10,7 @@
     "version": "v1"
   },
   "paths": {
-    "/auth/Signin": {
+    "/auth/signin": {
       "post": {
         "tags": [
           "Auth"
@@ -158,6 +158,18 @@
               "format": "int32"
             }
           }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/tasks/all": {
+      "get": {
+        "tags": [
+          "Task"
         ],
         "responses": {
           "200": {
